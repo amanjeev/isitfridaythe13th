@@ -1,8 +1,9 @@
 application: isitfridaythe13th
-version: 1
-runtime: python
+version: 3
+runtime: python27
 api_version: 1
+threadsafe: true
 
 handlers:
 - url: /.*
-  script: isitfridaythe13th.py
+  script: isitfridaythe13th.app
